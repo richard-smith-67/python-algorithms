@@ -12,8 +12,6 @@ def get_fibonacci_last_digit(n):
         fibNumbers.append((fibNumbers[i-1] + fibNumbers[i-2]) % 10)         
     
     return fibNumbers[n]
-    
-    return 0
 
 if __name__ == '__main__':
     input = sys.stdin.read()
